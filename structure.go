@@ -2,11 +2,11 @@ package awesomelib
 
 
 type Hoge struct {
-	Name string
+	Username string
 }
 
-func NewHoge(name string) Hoge {
+func NewHoge(username string) Hoge {
 	return Hoge{
-		Name: name,
+		Username: username,
 	}
 }
